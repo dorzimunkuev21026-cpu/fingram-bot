@@ -149,7 +149,7 @@ async def paid(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def help_(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(f"Вопросы по покупке, доступу и возврату: {CONTACT}\nОферта: {OFFER_URL}\nПолитика данных: {PRIVACY_URL}")
+    await update.message.reply_text(f"Оферта: {OFFER_URL}\nПолитика данных: {PRIVACY_URL}")
 
 
 def main():
